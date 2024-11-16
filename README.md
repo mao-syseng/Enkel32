@@ -8,9 +8,10 @@
 
 
 Parts:
-- 16 awg enamel copper wire
-- pi pico rp2040 
-- 32 switches and keycaps
+- 16 awg enamel copper wire 
+- pi pico rp2040 - 40kr
+- 32 switches - 64kr
+- 32 keycaps - 
   
 
 ## Inspiration
