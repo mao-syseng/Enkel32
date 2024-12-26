@@ -1,7 +1,7 @@
 # mono
 
 
-##Parts:
+## Parts:
 - 16 awg enamel copper wire, I bought from Emtel, was 500g for 200kr. Is enough for many projects. 
 - pi pico rp2040 - 40kr, buy Pico H if you don't want to solder headers yourself.
 - 32 switches - 64kr, KTT makes very nice cheap switches.
