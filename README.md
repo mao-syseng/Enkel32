@@ -23,3 +23,5 @@ A 32 key ortholinear minimal keyboard
 - https://x.com/MohitBhoite
 
 ## Steps
+### Print the plate
+- Download and print `mono-plate.stl`. Layer height should be .25mm and it needs supports
