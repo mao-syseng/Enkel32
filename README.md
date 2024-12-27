@@ -1,4 +1,5 @@
 # mono
+A 32 key ortholinear minimal keyboard
 
 ## Parts
 - 16 awg enamel copper wire, I bought from Emtel, was 500g for 200kr. Is enough for many projects. 
@@ -8,10 +9,11 @@
 
 
 ## Tools
-- screwing machine
+- drill or screwing machine
 - pliers
 - Soldering tools
-- 
+- 3D printer
+- Small rounded file
   
 
 ## Inspiration
