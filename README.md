@@ -1,4 +1,4 @@
-# mono
+# Enkel32
 A 32 key ortholinear minimal keyboard
 
 ## Parts
