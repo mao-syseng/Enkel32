@@ -1,5 +1,6 @@
 # Enkel32
 A 32 key ortholinear minimal keyboard
+https://mao-syseng.github.io/enkel32/
 
 ## Parts
 - 16 awg enamel copper wire, I bought from Emtel, was 500g for 200kr. Is enough for many projects. 
