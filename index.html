@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-    <title>Enkel32</title>
+    <title>enkel32</title>
     <style>
           :root {
             --bg: #eff1f5;
@@ -25,11 +25,12 @@
   </head>
   <body>
     <header>
-      <h2>Enkel32</h2>
-      <sub-title>Ultra minimalist ortholinear 32 key flywire keyboard based on Raspberry Pi Pico MCU.</sub-title>
+      <h2>enkel32</h2>
+      <sub-title> 32 key ortholinear flywire keyboard based on raspberry pi pico mcu.</sub-title>
     </header>
 
     <main>
+      <h3>finished keyboard</h3>
       <svg viewBox="0 0 155 99" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="3.25" y="31.25" width="143.5" height="0.5" rx="0.25" stroke="#4C4F69" stroke-width="0.5" />
         <rect x="3.25" y="8.25" width="145.5" height="0.5" rx="0.25" stroke="#4C4F69" stroke-width="0.5" />
@@ -192,16 +193,64 @@
         <path d="M140.773 29.34H141.376L140.899 31.833H139.738L140.773 29.34ZM142.924 29.34H143.527L143.05 31.833H141.889L142.924 29.34Z" fill="black" />
         <path d="M44.81 36V29.718H48.77V30.375H45.566V32.49H48.5V33.147H45.566V36H44.81Z" fill="black" />
       </svg>
-      <p>Enkel32 uses a flywire circuit, which means there is no plate or case of any kind. The copper wire is the only thing holding all the switches and the microcontroller together.</p>
-<p>This build however will still require you 3D print a plate to hold the parts together while soldering.</p>
-      <h3>Parts</h3>
+      <p>enkel32 uses a flywire circuit, which means there is no plate or case of any kind. The copper wire is the only thing holding all the switches and the microcontroller together.</p>
+<p>this build however will still require you 3D print a plate to hold the parts together while soldering.</p>
+      <h3>parts</h3>
       <ul>
         <li>16 awg enamel copper wire.</li>
-        <li>Raspberry Pi Pico H.</li>
-        <li>32 1N4148 Signal Diodes.</li>
-        <li>32 MX style switches.</li>
+        <li>raspberry pi pico h.</li>
+        <li>32 1N4148 signal diodes.</li>
+        <li>32 mx style switches.</li>
         <li>32 keycaps.</li>
       </ul>
+      <h3>tools</h3>
+      <ul>
+        <li>plier</li>
+        <li>contact glue</li>
+        <li>soldering iron</li>
+      </ul>
+      <h3>print the plate</h3>
+      <svg viewBox="0 0 151 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" y="27.5" width="150" height="74" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="2.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="0.5" y="0.5" width="54" height="27" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="2.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="2.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="2.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="21.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="21.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="21.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="21.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="40.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="51.5" y="21.5" width="3" height="1" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="51.5" y="5.5" width="3" height="1" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="0.5" y="21.5" width="3" height="1" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="0.5" y="5.5" width="3" height="1" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="40.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="40.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="40.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="59.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="59.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="59.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="59.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="78.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="78.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="78.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="78.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="97.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="97.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="97.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="97.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="116.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="116.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="116.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="116.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="135.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="135.5" y="48.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="135.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        <rect x="135.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69"/>
+        </svg>
+        
     </main>
   </body>
 </html>
