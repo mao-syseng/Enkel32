@@ -208,6 +208,7 @@
         <li>small file set</li>
         <li>contact glue</li>
         <li>soldering tools</li>
+        <li>leaded solder, I had a lot of trouble with unleaded solder due to the thicker wire.</li>
         <li>drilling/screwing machine</li>
         <li>3d printer</li>
         <li>wire cutter</li>
@@ -253,8 +254,12 @@
         <rect x="135.5" y="67.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69" />
         <rect x="135.5" y="86.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69" />
       </svg>
-
-      <h2>getting ready for soldering</h2>
+      <p>The plate needs to be cut off at the very end and therefor needs to have 0% fill and the thinnest walls as possible. Should just barely hold the keys together. I could not get the plate off the first keyboard of this type I built.</p>
+      <p>After printing you can put in the keys and turn it around and put the Pi Pico in the slot</p>
+      <h2>Adding the stability wires</h2>
+      <p>To get the wire straight you bend each end and put one end in drill machine and hold the other with a plier. Hold it tight outward while you spin the drill and it will straighten.</p>
+      <p>Glue a straight piece of wire across each row. These will not be used for any connection, it is just for stability</p>
+      <p>The wire should sit just below the top pin of the keys. After it is glued there you can gently push the top pin down on top of the wire, this will help with next step</p>
       <svg viewBox="0 0 151 102" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="2.5" y="29.5" width="13" height="13" rx="0.5" fill="#EFF1F5" stroke="#4C4F69" />
         <circle cx="7.5" cy="31.5" r="0.5" fill="#4C4F69" />
@@ -437,8 +442,20 @@
           fill="#4C4F69"
         />
       </svg>
-      <h2>soldering the ro
+      <h2>First row</h2>
+      <h2>Add the diodes </h2>
+        <p>Which direction the diodes are in does not matter, you can set either COL2ROW or ROW2COL in firmware later. However it is very important that they are all in the same direction.</p>
+        <p>Solder a diode to each pin, from the top pin and it should sit straight down. The easiest way I found was to presolder the pin first and then you can hold the diode where you want and hit the pin with the soldering iron to connect them. You can clean up the solder joints after both ends are soldered</p>
+      <h2>Add the row wires, do one row at a time</h2>
+        <p>First step is to get a good length of wire and straighten it like in previous step.</p>
+        <p>After that you need to put it across the row and bend it how you want to get it to the desired pin on Pi Pico. Don't be afraid to experiment and throw away the wire and try again if it does not work well. This can be time consuming but will be faster with practice</p>
+        <p>You can use a marker to mark the places where you want to bend and for the actual bend I just held the wire with my pliers and bended it with my hand.</p>
+        <p>After you have bended the wire how you like you need to mark the places where the wire intersects with the switch diodes, then use a small file and file down a bit to get down to the copper. Also need to file down the end where you are connecting to the Pico.</p>
+        <p>Presolder all connections, on the wire and on the Pico pin. </p>
+        <p>Now you can solder the connections and remember to use a multimeter afterwards to check if everything is working as intended.</p>
+        <p>Repeat for the rest of the rows.</p>
       </h2>
+      <h2>Add the column wires.</h2>
     </main>
     <footer></footer>
   </body>
